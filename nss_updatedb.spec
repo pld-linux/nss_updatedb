@@ -2,7 +2,7 @@ Summary:	NSS update DB tool
 Name:		nss_updatedb
 Version:	7
 Release:	1
-Source0:	http://www.padl.com/download/%{name}.tgz
+Source0:	http://www.padl.com/download/%{name}-7.tar.gz
 # Source0-md5:	3f6cfe1221a350fcacc3f96779be4da1
 License:	GPL
 Group:		Base
