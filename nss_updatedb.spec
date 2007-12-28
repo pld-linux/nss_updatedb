@@ -1,12 +1,12 @@
 Summary:	NSS update DB tool
 Summary(pl.UTF-8):	Narzędzie do uaktualniania bazy NSS
 Name:		nss_updatedb
-Version:	7
+Version:	8
 Release:	1
 License:	GPL
 Group:		Base
 Source0:	http://www.padl.com/download/%{name}-%{version}.tar.gz
-# Source0-md5:	3f6cfe1221a350fcacc3f96779be4da1
+# Source0-md5:	26e34dcc0045ec20614d82b97e6e2036
 URL:		http://www.padl.com/OSS/nss_updatedb.html
 BuildRequires:	autoconf
 BuildRequires:	db-devel
