@@ -37,12 +37,12 @@ użytku z pam_ldap i nss_ldap.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sbindir}
-install nss_updatedb $RPM_BUILD_ROOT%{_sbindir}
+install -p nss_updatedb $RPM_BUILD_ROOT%{_sbindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS NEWS COPYING README ChangeLog
-%attr(755,root,root) %{_sbindir}/*
+%doc AUTHORS NEWS README ChangeLog
+%attr(755,root,root) %{_sbindir}/nss_updatedb
